@@ -13,11 +13,7 @@ public class BaseQueryBean implements java.io.Serializable {
 	private Integer pageSize;
 	private String reportTemplateName;
 	private String reportFileName;
-	private String q_modOperateId;
-	private String q_order;
-	private HttpServletResponse response;
-	public String getAct() {
-		return act;
+
 	}
 
 	public void setAct(String act) {
@@ -69,6 +65,7 @@ public class BaseQueryBean implements java.io.Serializable {
 
 	public void setQ_modOperateId(String q_modOperateId) {
 		this.q_modOperateId = q_modOperateId;
+asdjioasdjiol ajsdiasdoipjkpasd
 	}
 
 	public String getReportTemplateName() {
